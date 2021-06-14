@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="https://kit.fontawesome.com/51bc2aa7cb.js" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>SANBS Dashboard</title>
+    </head>
+    <body>
+        
+        <header class="header">
+            <div class="header__container">
+                <h3>Anne Sikhosana <i class="fas fa-sort-down"></i></h3>
+                <img src="assets/img/logo.png" alt="" class="header__img">
+
+                <a href="#" class="header__logo"><h3 class="nav_subtitle">SANBS </h3></a>
+    
+                <div class="header__search">
+                    <input type="search" placeholder="Search" class="header__input">
+                    <i class='bx bx-search header__icon'></i>
+                </div>
+    
+                <div class="header__toggle">
+                    <i class='bx bx-menu' id="header-toggle"></i>
+                </div>
+            </div>
+        </header>
+
+        
+        <div class="nav" id="navbar">
+            <nav class="nav__container">
+                <div>
+                    <a href="#" class="nav__link nav__logo">
+                        <i class='bx bxs-disc nav__icon' ></i>
+                        <span class="nav__logo-name">Admin Area</span>
+                    </a>
+    
+                    <div class="nav__list">
+                        <div class="nav__items">
+                            <h3 class="nav__subtitle">Dashboard</h3>
+    
+                            <a href="index.html" class="nav__link">
+                                <i class='bx bx-home nav__icon' ></i>
+                                <span class="nav__name">Dashboard</span>
+                            </a>
+                            
+                            <div class="nav__dropdown">
+                                <a href="profiles.html" class="nav__link">
+                                    <i class='bx bx-user nav__icon' ></i>
+                                    <span class="nav__name">Profiles</span>
+                                    <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                                </a>
+
+                                <div class="nav__dropdown-collapse">
+                                    <div class="nav__dropdown-content">
+                                        <a href="profiles.html" class="nav__dropdown-item">Accounts</a>
+                                        <a href="#" class="nav__dropdown-item">Mail</a>
+                                        <a href="#" class="nav__dropdown-item">Passwords</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="nav__items">
+        
+                            <div class="nav__dropdown">
+                                <a href="notifications.html" class="nav__link active">
+                                    <i class='bx bx-bell nav__icon' ></i>
+                                    <span class="nav__name">Notifications</span>
+                                    
+                                </a>
+
+                                
+                                </div>
+
+                            </div>
+
+                            <a href="metadata.html" class="nav__link">
+                                <i class="far fa-file"></i>
+                                <span class="nav__name">Metadata</span>
+                            </a>
+                            <a href="joining.html" class="nav__link">
+                                <i class="fas fa-users"></i>
+                                <span class="nav__name">Joining Community</span>
+                            </a>
+                            <a href="love.html" class="nav__link">
+                                <i class="far fa-heart"></i>
+                                <span class="nav__name"> Send Love</span>
+                            </a> 
+                            <a href="alert.html" class="nav__link">
+                                <i class="fas fa-volume-up"></i>
+                                <span class="nav__name"> Alert Participant</span>
+                            </a>
+                        
+
+                <a href="login.html" class="nav__link nav__logout">
+                    <i class='bx bx-log-out nav__icon' ></i>
+                    <span class="nav__name">Log Out</span>
+                </a>
+            </div>
+        </div>
+    </div>
+            </nav>
+
+        </div>
+
+        
+        <main>
+            <section>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" />
+
+<div class="notify">
+<div class="alert">
+        <span class="icon">
+            <i class="fa fa-superpowers"></i>
+        </span>
+    
+        <div class="text">
+            <strong>Nathan Kruger, 30</strong>
+            <p>Appointment Approved  10/03/2021</p>
+        </div>
+    
+        <button class="close">
+            <i class="fa fa-close"></i>
+        </button>
+    
+    </div>
+    
+    <div class="alert alert-success">
+        <span class="icon">
+            <i class="fa fa-check"></i>
+        </span>
+    
+        <div class="text">
+            <strong>Success</strong>
+            <p>Thando Recieved Donor !! Let Her Know</p>
+        </div>
+    
+        <button class="close">
+            <i class="fa fa-close"></i>
+        </button>
+    
+    </div>
+    
+    <div class="alert alert-warning">
+        <span class="icon">
+            <i class="fa fa-exclamation-triangle"></i>
+        </span>
+    
+        <div class="text">
+            <strong>Warning</strong>
+            <p>System Reload !</p>
+        </div>
+    
+        <button class="close">
+            <i class="fa fa-close"></i>
+        </button>
+    
+    </div>
+    
+    <div class="alert alert-danger">
+        <span class="icon">
+            <i class="fa fa-close"></i>
+        </span>
+    
+        <div class="text">
+            <strong>Danger</strong>
+            <p>Someone Trying To Log In Your System! Check Security</p>
+        </div>
+    
+        <button class="close">
+            <i class="fa fa-close"></i>
+        </button>
+    
+    </div>
+    
+    <div class="alert alert-primary">
+        <span class="icon">
+            <i class="fa fa-info"></i>
+        </span>
+    
+        <div class="text">
+            <strong>Primary</strong>
+            <p>Welcome You're Back ! Now Let's Get To Work !</p>
+        </div>
+    
+        <button class="close">
+            <i class="fa fa-close"></i>
+        </button>
+    
+    </div>
+</div>
+            </section>
+        </main>
+
+    
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
